@@ -1,0 +1,21 @@
+
+.aspect-ratio (@height) {
+   position: relative;
+   overflow: hidden;
+
+   &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      padding-bottom: calc(@height);
+   }
+}
+
+.aspect-ratio-square () {
+   .aspect-ratio(100%);
+}
+
+.aspect-ratio-wide-rect () {
+   .aspect-ratio(75%);
+}

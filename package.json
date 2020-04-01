@@ -1,0 +1,22 @@
+{
+  "name": "@kwsites/cms-common",
+  "description": "Common tools used for the apostrophe cms plugins from kwsites",
+  "version": "0.0.0",
+  "private": false,
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "scripts": {
+    "postversion": "npm publish --access public && git push && git push --tags"
+  },
+  "files": [
+    "index.js",
+    "lib/**/*.*"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/kwsites/cms-common.git"
+}
