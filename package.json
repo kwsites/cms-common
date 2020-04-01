@@ -1,7 +1,7 @@
 {
   "name": "@kwsites/cms-common",
   "description": "Common tools used for the apostrophe cms plugins from kwsites",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
