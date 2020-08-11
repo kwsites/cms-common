@@ -1,0 +1,67 @@
+
+.flexbox () {
+   -ms-box-orient: horizontal;
+   display: -ms-flexbox;
+   display: flex;
+}
+
+.flex-direction (@direction: row) {
+   flex-direction: @direction;
+   -ms-flex-direction: @direction;
+}
+
+.flex (@grow: 1, @shrink: 1, @basis: 0) {
+   .flex-grow(@grow);
+   .flex-shrink(@shrink);
+   .flex-basis(@basis);
+}
+
+.flex-basis(@basis: 0) {
+   -ms-flex-basis: @basis;
+   flex-basis: @basis;
+}
+
+.flex-shrink(@shrink: 1) {
+   -ms-flex-shrink: @shrink;
+   flex-shrink: @shrink;
+}
+
+.flex-grow(@grow: 1) {
+   -ms-flex-grow: @grow;
+   flex-grow: @grow;
+}
+
+.flex-wrap ( @wrap: wrap ) {
+   -ms-flex-wrap: @wrap;
+   flex-wrap: @wrap;
+}
+
+.align-items (@align) {
+   -ms-align-items: @align;
+   align-items: @align;
+}
+
+.align-self (@align) {
+   -ms-align-self: @align;
+   align-self: @align;
+}
+
+.align-content (@align) {
+   -ms-align-content: @align;
+   align-content: @align;
+}
+
+.justify-content (@where) {
+   -ms-justify-content: @where;
+   justify-content: @where;
+}
+
+.justify-items (@where) {
+   -ms-justify-items: @where;
+   justify-items: @where;
+}
+
+.order (@order) {
+   -ms-flex-order: @order;
+   order: @order;
+}
